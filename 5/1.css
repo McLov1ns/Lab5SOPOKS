@@ -1,0 +1,57 @@
+body {
+font-family: Arial, Verdana, sans-serif; /* Сeмeйство шритов */
+font-size: 11pt; /* Размер основного шрифта в пунктах */
+background-color: #f0f0f0; /* Цвет фона веб-страницы */
+color: #333; /* Цвет основного текста */
+padding-top: 120px;
+}
+h1 {
+color: #a52a2a; /* Цвет заголовка */
+font-size: 24pt; /* Размер шрифта в пунктах */
+font-family: Georgia, Times, serif; /* Сeмeйство шρитов */
+font-weight: normal; /* Ноpмaльное начертание текста */
+}
+P{
+text-align: justify; /* Выравнивание по ширине */
+margin-left: 60px; /* Отступ слева в пикселах */
+margin-right: 10px; /* Отступ справа в пикселах */
+border-left: 1px solid #999; /* Параметры линии слева*/
+border-bottom: 1px solid #999; /* Параметры линии Cнизу* padding-left: 10px; /* Отступ от линии слева до текста */
+padding-bottom: 10px; /* Отступ от линии снизу до текста */
+}
+img{
+  width: 300px;
+  height: 300px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFEBCD; /* Зеленый цвет фона */
+  height: 100px;
+  width: 100%;
+  border: 1px solid #999;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  width: auto;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+#special-image {
+  width: auto;
+  height: 300px;
+}
